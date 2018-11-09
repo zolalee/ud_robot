@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RobotMotionDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_motors">MotorsActivity</string>
+    <string name="title_activity_head">HeadActivity</string>
+    <string name="title_activity_emoji">EmojiActivity</string>
+    <string name="title_activity_wheel">WheelActivity</string>
+    <string name="title_activity_sensor">SensorActivity</string>
+
+    <!-- Common -->
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+    <string name="run">Run</string>
+    <string name="provide_angle">Angle</string>
+    <string name="null_angle">Angle cannot be empty, please type in an angle.</string>
+    <string name="wrong_angle">Invalid angle</string>
+    <string name="ipal_robot">iPal Robot Motion</string>
+    <string name="unit_motors">MOTORS</string>
+    <string name="unit_head">HEAD</string>
+    <string name="unit_wheel">WHEEL</string>
+    <string name="unit_emoji">EMOJI</string>
+    <string name="unit_sensor">SENSOR</string>
+    <string name="unit_audio">AUDIO</string>
+    <string name="unit_video">VIDEO</string>
+
+    <!-- ArmActivity -->
+    <string-array name="arm_direction">
+        <item>positive</item>
+        <item>negative</item>
+    </string-array>
+    <string-array name="arm_action">
+        <item>ARM_ROTATION_RIGHT</item>
+        <item>ARM_SWING_RIGHT</item>
+        <item>FOREARM_ROTATION_RIGHT</item>
+        <item>FOREARM_SWING_RIGHT</item>
+        <item>WRIST_RIGHT</item>
+        <item>ARM_ROTATION_LEFT</item>
+        <item>ARM_SWING_LEFT</item>
+        <item>FOREARM_ROTATION_LEFT</item>
+        <item>FOREARM_SWING_LEFT</item>
+        <item>WRIST_LEFT</item>
+        <item>NECK_ROTATION</item>
+        <item>NECK_TILT</item>
+    </string-array>
+
+    <!--<string name="arm_tips">Tips: Please notice that each action has own angle range, please refer to this instruction for angle input: \n-->
+    <!--ARM_ROTATION_RIGHT:      -25&#186; &#8211; 175&#186;\n-->
+    <!--ARM_SWING_RIGHT:       0&#186; &#8211; 65&#186;\n-->
+    <!--FOREARM_ROTATION_RIGHT:  -80&#186; &#8211; 80&#186;\n-->
+    <!--FOREARM_SWING_RIGHT:   0&#186; &#8211; 90&#186;\n-->
+    <!--WRIST_RIGHT:           -80&#186; &#8211; 80&#186;\n-->
+    <!--ARM_ROTATION_LEFT:       -25&#186; &#8211; 175&#186;\n-->
+    <!--ARM_SWING_LEFT:        0&#186; &#8211; 65&#186;\n-->
+    <!--FOREARM_ROTATION_LEFT:   -80&#186; &#8211; 80&#186;\n-->
+    <!--FOREARM_SWING_LEFT:    0&#186; &#8211; 90&#186;\n-->
+    <!--WRIST_LEFT:            -80&#186; &#8211; 80&#186;\n-->
+    <!--NECK_ROTATION:      -40&#186; &#8211; 40&#186;\n-->
+    <!--NECK_TILT:       -12&#186; &#8211; 15&#186;</string>-->
+
+    <string name="range_arm_rotation">-25&#186; &#8211; 175&#186;</string>
+    <string name="range_arm_swing">0&#186; &#8211; 65&#186;</string>
+    <string name="range_forearm_rotation">-80&#186; &#8211; 80&#186;</string>
+    <string name="range_forearm_swing">0&#186; &#8211; 90&#186;</string>
+    <string name="range_wrist">-80&#186; &#8211; 80&#186;</string>
+    <string name="range_neck_rotation">-40&#186; &#8211; 40&#186;</string>
+    <string name="range_neck_tilt">-12&#186; &#8211; 15&#186;</string>
+
+    <!-- HeadActivity -->
+    <string name="head_nod">Nod Head</string>
+    <string name="head_shake">Shake Head</string>
+
+    <!-- EmojiActivity -->
+    <string-array name="emoji_list">
+        <item>Smile</item>
+        <item>Sad</item>
+        <item>Cry</item>
+        <item>Shy</item>
+        <item>Angry</item>
+        <item>Blink</item>
+        <item>Frown</item>
+    </string-array>
+
+    <string name="emoji_hint">Choose one emoji:</string>
+    <string name="emoji_tips">Tips: Please pay attention to LED lights on Robot\'s head. Face expressions are shown through LED lights.</string>
+
+    <!-- WheelActivity -->
+    <string name="provide_distance">Distance</string>
+    <string name="wheel_tips">Tips: Positive means forward/left and negative means backward/right.</string>
+    <string name="wheel_walk">Walk</string>
+    <string name="wheel_turn">Turn</string>
+
+    <!-- HeadActivity -->
+    <string name="headHint">Tips: Robot can do built-in actions such as nod-head and shake-head.</string>
+    <string name="exit">Exit</string>
+</resources>
